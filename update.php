@@ -21,12 +21,8 @@
 	<title>GIT Harry Acker SCRIPT</title>
 </head>
 <body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
-	<?php if ($_SERVER['REQUEST_METHOD'] === 'GET'):
-		include('autodeploy_hacker.php');
-	else: ?>
 		<pre>
 		 <?=$output?>
 		</pre>
-	<?php endif; ?>
 </body>
 </html>
